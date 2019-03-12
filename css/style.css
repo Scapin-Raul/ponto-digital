@@ -28,8 +28,13 @@ h1{
 #menu ul a{
     color: #fff;
     font-size: 1.2em;
+    padding: 0.4em;
     text-transform: uppercase;
     text-decoration: none;
+}
+#menu ul a:hover{
+    color: #000;
+    background: #fff;
 }
 .botao_menu{
     display: none;
@@ -51,7 +56,7 @@ h1{
 }
 #banner h2{
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3em;
     margin-top: 2em;
     text-transform: uppercase;
     color: #fff;
@@ -59,6 +64,9 @@ h1{
             -2px -2px 2px #000000,
             2px -2px 2px #000000,
             -2px 2px 2px #000000;
+}
+#banner span{
+    font-size: 1.2em;
 }
 #qualidades{
     width: 90%;
@@ -77,9 +85,15 @@ h1{
 #tudo img{
     max-width: 300px;
 }
+.indiv {
+    max-width: 400px;
+}
 .indiv p{
     margin-top: 1em;
     font-size: 1.5em;
+}
+.indiv span{
+    font-size: 1.1em;
 }
 #planos{
     background-image: url(../img/home/fundo-planos.png);
@@ -88,6 +102,8 @@ h1{
     height: 65vh;
 }
 #planos h3{
+    position: relative;
+    top: 0.7em;
     font-size: 3em;
     text-align: center;
     margin: 2em 0;
@@ -119,9 +135,86 @@ h1{
 }
 #depoimentos{
     background: #00376c;
-    padding: 2em 0;
+    padding: 3em 0;
+    color: #fff;
 }
 #depoimentos >div {
     width: 90%;
     margin: 0 auto;
+}
+#depoimentos h3{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+#depoimentos >div >div{
+    display: flex;
+    justify-content: space-around;
+}
+#depoimentos >div >div >div{
+    margin-top: 3em;
+    max-width: 20em;
+}
+#depoimentos >div >div >div p{
+    font-size: 1.4em;
+    text-align: left;
+}
+#depoimentos >div >div >div span{
+    font-size: 1.6em;
+    margin-left: 0.3em;
+    text-decoration: underline;
+}
+footer{
+    background: #000;
+    width: 100%;
+    padding-bottom: 2em;
+}
+#rodape{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+#contatos{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contatos p{
+    margin: 1.1em 0;
+    font-size: 1.7em;
+}
+#contatos >div{
+    margin: 1.5em 0;
+    max-width: 10%;
+    height: 100%;
+}
+#contatos img{
+    max-width: 30%;
+    max-height: 30%;
+    margin-left: 1em;
+}
+#contatos img:hover{
+    cursor: pointer;
+}
+#menu_pe{
+    text-align: center;
+    margin-top: 0.5em;
+}
+#menu_pe ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+#menu_pe ul a{
+    color: #fff;
+    font-size: 1.3em;
+    padding: 0.15em 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#menu_pe ul a:hover{
+    color: #000;
+    background: #fff;
 }

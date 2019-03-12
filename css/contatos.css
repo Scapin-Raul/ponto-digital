@@ -1,0 +1,13 @@
+#banner h2{
+    margin-right: 4em;
+    font-size: 5em;
+}
+
+#geral{
+    padding: 2em 0;
+    background-image: url(../img/fundo-cadastro.png)
+}
+#geral h3{
+    text-align: center;
+    font-size: 3em;
+}
