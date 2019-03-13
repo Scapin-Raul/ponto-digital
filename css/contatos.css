@@ -51,7 +51,7 @@ img[alt="Icone Gmail"]{
 
 @media screen and (max-width:768px){
     #banner h2{
-        margin-right: 1em;
+        margin-right: 0em;
         font-size: 3.5em;
     }
     #sociais img{
@@ -63,6 +63,32 @@ img[alt="Icone Gmail"]{
     }
     #geral h3{
         font-size: 3em;
-        margin-bottom: 0.5em;
+        margin-bottom: 0.5em;   
+    }
+    #banner {
+        padding: 5em 3em;
+    }
+}
+@media screen and (max-width:360px){
+    #geral h3{
+        font-size: 2.5em;
+    }
+    #geral p{
+        font-size: 1.25em;
+    }
+    #cont{
+        flex-direction: column;
+    }
+
+    #texto{
+        width: 100%;
+    }
+    #sociais{
+        text-align: center;
+        margin-top: 1em;
+        width: 100%;
+    }
+    #sociais img{
+        max-width: 17%;
     }
 }
