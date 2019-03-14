@@ -1,0 +1,66 @@
+#banner h2{
+    margin-right: 5em;
+    font-size: 5em;
+}
+#cac{
+    background: #d1d1d1;
+    padding: 1em;
+}
+#cac h3{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#cac p{
+    font-size: 2.2em;
+    margin: 2em 1em;
+}
+#cac span{
+    font-size: 1.2em;
+    margin-top: 3em;
+}
+
+#msg{
+    background-image: url(../img/fundo-cadastro.png);
+    background-position: top left;
+    padding: 1em;
+}
+#msg h4{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+#msg_cont{
+    width: 90%;
+    margin: 0 auto;
+}
+#nome_email{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs{
+    width: 45%;
+    margin-bottom: 1em;
+}
+.inputs label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+#mensagem{
+    width: 100%;
+}
+#input_msg{
+    width: 100%;
+}
+
+@media screen and (max-width:768px){
+
+}
+@media screen and (max-width:360px){}

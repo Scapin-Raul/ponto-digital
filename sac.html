@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PONTO DIGITAL - PLANOS</title>
+    <title>PONTO DIGITAL - SAC</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/planos.css">
+    <link rel="stylesheet" href="CSS/sac.css">
 </head>
 <body>
     <header>
@@ -21,62 +21,47 @@
                     <li><a href="contatos.html">Contatos</a></li>
                     <li><a href="quem_somos.html">Quem somos?</a></li>
                     <li><a href="sac.html">SAC</a></li>
-                    <li><a href="">Login</a></li>
+                    <li><a href="">Login</a></li> <!--ADICIONAR O -->
                 </ul>
             </nav>
         </div>
     </header>
     <section id="banner">
         <img src="img/logo/logo.png" alt="Logo Ponto Digital!">
-        <h2>Planos!</h2>
+        <h2>SAC</h2>
     </section>
 
-    <section id="plano">
-        <h3>Escolha o plano para a sua empresa!</h3>
-        <div id="busca">
-            <div class="plano_indiv">
-                <h4>Ponto Trial</h4>
-                <div>
-                    <img src="img/logo/favicon.png" alt="">
-                    <p>1 Funcionário</p>
-                </div>
-                <p><span> Grátis</span> por 1 mês.</p>
-            </div>
+    <section id="cac">
+         <h3>Central de Atendimento ao Cliente</h3>
+         <p>Está com dúvida ao acessar nosso site, ou com problemas para fazer um pedido? <br>
+         Ligue ao SAC que resolveremos na hora!</p>
+         <p> <span> Telefone: (11) 4404-4594 </span></p>
+         <p>Horário de atendimento: das 8:00 às 20:00, de segunda à sábado.</p>
+    </section>
 
-            <div class="plano_indiv">
-                <h4>Ponto Simple</h4>
-                <div>
-                    <img src="img/logo/favicon.png" alt="">
-                    <p>5 Funcionários</p>
-                </div>
-                <p><span> R$29,90 </span>por 1 mês.</p>
-            </div>
-          
-            <div class="plano_indiv">
-                <h4>Ponto Medium</h4>
-                <div>
-                    <img src="img/logo/favicon.png" alt="">
-                    <p>50 Funcionários</p>
-                </div>
-                <p><span> R$149,90 </span>por 1 mês.</p>
-            </div>
+    <section id="msg">
+        <div id="msg_cont">
+            <h4>Caso ainda reste alguma dúvida, mande-nos um e-mail direto.</h4>
+            <form action="">
 
-            <div class="plano_indiv">
-                <h4>Ponto Premium</h4>
-                <div>
-                    <img src="img/logo/favicon.png" alt="">
-                    <p>300 Funcionários</p>
+                <div id="nome_email">
+                    <div class="inputs">
+                        <label for="nome">Nome completo:</label> 
+                        <input type="text" name="nome" id="nome" placeholder="Ex.: João Silveira" maxlength="50" required>
+                    </div>
+    
+                    <div class="inputs">
+                        <label for="email">E-mail:</label> 
+                        <input type="email" name="email" id="email" placeholder="Ex.: joao.silveira@gmail.com" maxlength="30" required>
+                    </div>
                 </div>
-                <p><span> R$299,90 </span>por 1 mês.</p>
-            </div>
 
-            <div class="plano_indiv">
-                <h4>Ponto Custom</h4>
-                <div>
-                    <img src="img/logo/favicon.png" alt="">
+                <div class="inputs" id="mensagem">
+                    <label for="msg">Mensagem:</label> 
+                    <textarea name="msg" id="input_msg" rows="7"></textarea>
                 </div>
-                <p>Entrar em contato para negociação.</p>
-            </div>
+
+            </form>
         </div>
     </section>
 
