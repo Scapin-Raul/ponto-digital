@@ -36,10 +36,7 @@
     -1px 1px 1px #000;
 }
 .plano_indiv:hover{
-    box-shadow: 3px 3px 3px #000,
-    -3px -3px 3px #000,
-    3px -3px 3px #000,
-    -3px 3px 3px #000;
+    opacity: 0.85;
 }
 .plano_indiv span{
     font-size: 1.2em;

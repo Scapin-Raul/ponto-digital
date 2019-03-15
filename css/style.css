@@ -25,6 +25,19 @@ h1{
     display: flex;
     justify-content: space-around;
 }
+#menu .ul_menu p{
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0.4em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+}
+#menu ul p:hover{
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
 #menu .ul_menu a{
     color: #fff;
     font-size: 1.2em;

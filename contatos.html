@@ -7,6 +7,7 @@
     <title>PONTO DIGITAL - CONTATOS</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contatos.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
                     <li><a href="contatos.html">Contatos</a></li>
                     <li><a href="quem_somos.html">Quem somos?</a></li>
                     <li><a href="sac.html">SAC</a></li>
-                    <li><a href="">Login</a></li>
+                    <p onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</p>
                 </ul>
             </nav>
         </div>
@@ -78,7 +79,6 @@
                             <li><a href="contatos.html">Contatos</a></li>
                             <li><a href="quem_somos.html">Quem somos?</a></li>
                             <li><a href="sac.html">SAC</a></li>
-                            <li><a href="">Login</a></li>
                     </ul>
                 </nav>
           </div>
@@ -94,5 +94,42 @@
                 });
             });
         </script>
+
+<div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="img/logo/favicon.png" alt="Logo" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Nome de Usuário</b></label> <br>
+            <input type="text" placeholder="Coloque seu nome de usuário" name="uname" required>
+      <br>
+            <label for="psw"><b>Senha</b></label> <br>
+            <input type="password" placeholder="Coloque sua senha" name="psw" required>
+              
+            <button type="submit">Acessar</button>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+          </div>
+        </form>
+      </div>
+      
+      <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+      </script>
+
     </body>
     </html>
