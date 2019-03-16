@@ -409,12 +409,14 @@ footer{
         background-position: top;
     }
     #banner img{
+        position: absolute;
+        top: 0;
         max-width: 120px;
         max-height: 120px;
     }
     #banner h2{
-        font-size: 1.5em;
-        margin-top: 0.7em;
+        font-size: 1.2em;
+        margin-top: 2.7em;
     }
     #banner span{
         font-size: 1.1em;
